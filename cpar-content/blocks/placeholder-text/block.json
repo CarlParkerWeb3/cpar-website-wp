@@ -1,0 +1,25 @@
+{
+     "apiVersion": 3,
+     "name": "cpar/placeholder-text",
+     "title": "Placeholder (Text)",
+     "description": "a block that renders placeholder text to visualize on the page",
+     "category": "cpar-blocks",
+     "icon": "<svg class=\"cpar-block-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 520\"><defs><style>.cls-1{fill: #000000;fill-rule: evenodd;stroke-width: 0px;}</style></defs><path class=\"cls-1\" d=\"m578.06,393.68l-68.4-.85,49.38,84.81,68,.2-48.98-84.16Zm-121.86-30.84l67.12,116.11c-95.9,0-187.4-1.25-285.02-1.25-120.56,0-218.33-97.77-218.33-218.32S117.74,41.05,238.3,41.05h32.12l34.02,58.93h-66.13c-88.04,0-159.39,71.35-159.39,159.39s71.35,159.39,159.39,159.39l181.47,1.25-68.6-115.2c26.62,0,267.9.54,267.9,2.1,56.58-.79,102.05-46.88,102.05-103.46s-45.47-102.67-102.05-103.46h-211.95l102.81,176.63c-22.73-.17-45.47-.31-68.2-.42L305.05,41.05h314.02c89.12.79,160.95,73.28,160.95,162.4s-71.83,161.6-160.95,162.37l-162.88-2.98Z\"/></svg>",
+     "keywords": ["cpar","content","placeholder","text"],
+     "textdomain": "cpar-website-wp",
+     "supports": {
+          "align": ["full"],
+          "anchor": true,
+          "className": true,
+          "customClassName": true,
+          "html": false,
+          "multiple": true,
+          "reusable": false
+     },
+     "acf": {
+          "blockVersion": 2,
+          "mode": "preview",
+          "renderCallback": "cpar_blocks_placeholderText_template",
+          "postTypes": []
+     }
+}
